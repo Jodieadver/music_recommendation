@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* by defalt theres gap between screen and image so change that */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #FFF9F9;
+}

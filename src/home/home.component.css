@@ -1,0 +1,25 @@
+.continue {
+    color: white;
+    background-color: #1DB954;
+    font-size: large;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgb(174, 218, 192) 10px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+}
+
+.home_section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}

@@ -1,0 +1,35 @@
+.header {
+    border-bottom: solid 1px black;
+}
+
+.header img {
+    height: 60px;
+    margin: 10px 0 0 30px;
+}
+
+.covers img {
+    height: 230px;
+    width: 230px;
+}
+
+.covers {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-self: flex-end;
+
+}
+
+.covers img:nth-child(even) {
+    margin: -50px 0 -50px auto;
+}
+
+/* flex and justify-cotent */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 80px;
+    align-items: center;
+}
